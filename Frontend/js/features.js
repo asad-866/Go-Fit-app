@@ -1,4 +1,4 @@
-let url="http://localhost:9876/"
+let url="http://localhost:9876"
 
 let boxContainer=document.querySelector("#trainers .box-container")
 

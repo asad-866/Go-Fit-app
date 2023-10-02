@@ -26,7 +26,7 @@ getClasslength(loggedInUser._id)
 async function getClasslength(id) {
     try {
         loding_container.style.display="block";
-        let fetchingData = await fetch(baseURL + `/class/searchByUserID/${id}`, {
+        let fetchingData = await fetch(baseURL + `class/searchByUserID/${id}`, {
             method: "GET",
             headers: {
                 authorization: `Bearer ${loggedInUserEmail}`
@@ -91,7 +91,7 @@ function renderTotalClass(count) {
 getClass(loggedInUser._id)
 async function getClass(id) {
     try {
-        let fetchingData = await fetch(baseURL + `/class/searchByUserID/${id}`, {
+        let fetchingData = await fetch(baseURL + `class/searchByUserID/${id}`, {
             method: "GET",
             headers: {
                 authorization: `Bearer ${loggedInUserEmail}`

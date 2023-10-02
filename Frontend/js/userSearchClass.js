@@ -36,7 +36,7 @@ async function getAllClass(){
     // console.log(baseURL+"/class/all")
     try{
         loding_container.style.display="block";
-     let dataFetch=await fetch(baseURL+"/class/all",{
+     let dataFetch=await fetch(baseURL+"class/all",{
         headers:{   
             authorization:`Bearer ${loggedInUserEmail}`
         }
