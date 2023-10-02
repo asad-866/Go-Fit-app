@@ -26,7 +26,7 @@ const onSignUp = () => {
          return;
       }
 
-    fetch("https://rich-plum-barracuda-fez.cyclic.app/user/register", {
+    fetch("http://localhost:9876/user/register", {
         method: "POST",
         headers: {
             "Content-type": "application/json"

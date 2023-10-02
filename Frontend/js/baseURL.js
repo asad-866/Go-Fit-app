@@ -1,2 +1,2 @@
-let baseURL= "https://rich-plum-barracuda-fez.cyclic.app/"; // cyclic
+let baseURL= "http://localhost:9876/"; 
 export default baseURL;

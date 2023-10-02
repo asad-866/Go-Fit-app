@@ -6,7 +6,7 @@ let loding_container=document.getElementById("loding_container")
 let google_button = document.querySelector("#login-google-button")
 
 google_button.addEventListener("click", async () => {
- window.location = "https://rich-plum-barracuda-fez.cyclic.app/auth/google"
+ window.location = "http://localhost:9876/auth/google"
   });
 
 
@@ -40,7 +40,7 @@ google_button.addEventListener("click", async () => {
       }
   
       loding_container.style.display="block";
-    fetch("https://rich-plum-barracuda-fez.cyclic.app/user/login", {
+    fetch("http://localhost:9876/user/login", {
         method: "POST",
         headers: {
             "Content-type": "application/json"
